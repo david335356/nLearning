@@ -1,0 +1,74 @@
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2em;
+    padding: 2em;
+}
+
+.centerHeaders{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+.centeringParagraphs{
+    margin: 2em;
+    padding-right: 4em;
+    padding-left: 4em;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    font-size: 1.5em;
+}
+
+#crossingOut{
+    text-decoration: line-through;
+}
+
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+
+ul li {
+  float: left;
+}
+
+ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+#aboutMeSeciton{
+
+}
+
+#experienceSection{
+
+}
+#projectsSection{
+
+}
+#hobbiesSection{
+
+}
+#contactSection{
+    
+}
