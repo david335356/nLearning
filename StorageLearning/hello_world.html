@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My First Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>H1 Tag Hello World!</h1>
+    <h2>H2 Tag</h2>
+    <h3>H3 Tag</h3>
+    <p>This is my first paragraph in HTML.</p>
+
+    <button id="button-demo">Button for changing id color</button>
+    <p id="id-demo" >This has id tag.</p>
+    <div class="demo">This is a div element.</div>
+    <div class="demo">This is a div2 element.</div>
+    <span>This is a span element.</span>
+    <a href="#">This is a link</a>
+    <img src="radish.jpg" alt="This is an image">
+    <ul>
+        <li>First item</li>
+        <li>Second item</li>
+        <li>Third item</li>
+    </ul>
+    <ol>
+        <li>First item</li>
+        <li>Second item</li>
+        <li>Third item</li>
+    </ol>
+
+    <section class="storage-demo" aria-labelledby="storage-demo-title">
+        <h2 id="storage-demo-title">Storage Demo</h2>
+        <p>Type a value, pick a storage type, then save and reload the page to see what persists.</p>
+
+        <label for="storage-input">Value</label>
+        <input id="storage-input" type="text" placeholder="Type something..." />
+
+        <label for="storage-type">Save to</label>
+        <select id="storage-type">
+            <option value="local">localStorage</option>
+            <option value="session">sessionStorage</option>
+        </select>
+
+        <div class="storage-actions">
+            <button id="save-storage">Save</button>
+            <button id="load-storage">Load Selected</button>
+            <button id="clear-selected-storage">Clear Selected</button>
+            <button id="clear-all-storage">Clear Both</button>
+        </div>
+
+        <p id="storage-status">No storage action yet.</p>
+        <p id="local-preview">localStorage value: (empty)</p>
+        <p id="session-preview">sessionStorage value: (empty)</p>
+    </section>
+
+    <script src="hello_world.js"></script>
+</body>
+</html>
